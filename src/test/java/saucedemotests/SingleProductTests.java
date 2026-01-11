@@ -18,6 +18,7 @@ public class SingleProductTests {
     private ProductsPage productsPage;
     private SingleProductPage singleProductPage;
 
+
     @Before
     public void setUp() throws InterruptedException {
         driver = new ChromeDriver();
@@ -35,6 +36,7 @@ public class SingleProductTests {
 
         productsPage.titleProductClick(0);
         Thread.sleep(2000);
+
     }
 
     @Test
