@@ -88,6 +88,7 @@ public class SingleProductPage {
 
     public String shoppingCartBadge() {
         return driver.findElement(shoppingCartBadge).getText();
+
     }
 
     public boolean isShoppingCartBadgeDisplayed() {
