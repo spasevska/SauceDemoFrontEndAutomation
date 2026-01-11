@@ -92,6 +92,7 @@ public class SingleProductPage {
 
     public boolean isShoppingCartBadgeDisplayed() {
         return driver.findElements(shoppingCartBadge).isEmpty();
+
     }
 
 }
